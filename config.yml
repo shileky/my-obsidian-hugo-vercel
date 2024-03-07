@@ -114,7 +114,7 @@ params:
     defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=400&fm=webp&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
 
   editPost:
-    URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"
+    URL: "https://github.com/shileky/my-obsidian-hugo-vercel/tree/main/content"
     Text: "push issue" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -151,7 +151,6 @@ languages:
         # - name: 赞助
         #  url: sponsor
         # weight: 3
-        
           
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
