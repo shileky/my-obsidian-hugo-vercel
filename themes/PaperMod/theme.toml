@@ -3,7 +3,9 @@
 
 name = "PaperMod"
 license = "MIT"
-licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
+licenselink = "https://github.com/shileky/my-obsidian-hugo-vercel/blob/main/themes/PaperMod/LICENSE"
+
+
 description = "A fast, clean, responsive Hugo theme"
 homepage = "https://adityatelange.github.io/hugo-PaperMod/"
 tags = [
