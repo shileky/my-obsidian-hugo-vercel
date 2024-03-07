@@ -1,0 +1,172 @@
+baseURL: "https://www.jiang-gang-manifold.vercel.app/"
+title: ManiFold
+paginate: 10
+theme: PaperMod
+languageCode: zh-cn
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: "G-VE0D4BXTS2"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Jiang Gang
+  description: "电子，控制，数学,go语言、go语言微服务以及个人故事。"
+  keywords: ["jianggang", "go", "control", "math" , "study", "story"]
+  author: ["Jiang Gang"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  # 给图片增加 CDN 前缀
+  ImageCDN: "https://cdn.jsdelivr.net/gh/miaogaolin/workspace-obsidian-publisher/static" 
+  ShowReadingTime: false
+  ShowShareButtons: true
+  # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
+  ShareButtons:
+    - x
+    - email
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  # 是否展示 uv、pv
+  ViewCount: false 
+  # 是否开启百度统计
+  BaiduAnalytics: "4bddc7ae6f2203e19017f349bdcc79c2"
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: true
+  hideDescription: true
+  showtoc: true
+  tocopen: false
+  # 网站左上角的文字和图标配置
+  label:
+    text: 
+    iconSVG:
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari_pinned_tab.png"
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi! I'm Jiang Gang \U0001F44B"
+    Content: "Enjoy Joy of Learning, Stay Upbeat Forever - **[Fetch Author Details](/about)**"
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    #- name: telegram
+    # url: "https://t.me/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/shileky"
+    - name: rss
+      url: "/index.xml"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+    # 在列表默认显示的图片
+    defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=400&fm=webp&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
+
+  editPost:
+    URL: "https://github.com/shileky"
+    Text: "push issue" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+# 选择languages字段的哪个语言，默认 en
+defaultContentLanguage: zh
+languages:
+  zh:
+    permalinks:
+      # 默认会带路径会带 /posts 前缀
+      posts: /:slug/
+    menu:
+      main:
+        - name: 文章
+          url: archives
+          weight: 1
+        # - name: 标签
+        #   url: tags
+        #   weight: 2
+        - name: 系列
+          url: series
+          weight: 2
+        - name: 赞助
+          url: sponsor
+          weight: 3
+          
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+markup:
+  goldmark:
+    extensions:
+      # 禁用 Hugo 将英文单引号转为 &rsquo
+      typographer: false
+# highlight:
+#   noClasses: false
+#   anchorLineNos: true
+#   codeFences: true
+#   guessSyntax: true
+#   lineNos: true
+#   style: monokai
+
+taxonomies:
+  tag: tags
+  series: series
