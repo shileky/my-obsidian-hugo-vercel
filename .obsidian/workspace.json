@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/向日葵远程连接 Ubuntu 桌面.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/向日葵远程连接 Ubuntu 桌面.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/向日葵远程连接 Ubuntu 桌面.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/向日葵远程连接 Ubuntu 桌面.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "3b38582c04c48b7c",
   "lastOpenFiles": [
+    "content/notes/向日葵远程连接 Ubuntu 桌面.md",
     "content/notes/Ubuntu 安装 ssh 服务.md",
     "content/notes/Ubuntu 开发所有端口.md",
     "content/archives.md",
@@ -173,7 +174,6 @@
     "content/posts/跟我学习php数组常用函数-上篇.md",
     "content/posts/从 Notion 转到 Obsidian，又回来了.md",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
-    "content/posts/2024 年西安春节安排.md",
     "themes/PaperMod/images/tn.png",
     "static/safari_pinned_tab.png",
     "static/favicon-32x32.png",
