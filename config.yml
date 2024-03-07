@@ -76,8 +76,8 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
+      #- name: Posts
+      #  url: posts
       - name: Tags
         url: tags
 
@@ -139,18 +139,18 @@ languages:
       posts: /:slug/
     menu:
       main:
-        - name: 文章
+        - name: Archives
           url: archives
           weight: 1
         # - name: 标签
         #   url: tags
         #   weight: 2
-        - name: 系列
+        - name: Series
           url: series
           weight: 2
-        - name: 赞助
-          url: sponsor
-          weight: 3
+        # - name: 赞助
+        #  url: sponsor
+        # weight: 3
           
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
