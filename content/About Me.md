@@ -10,7 +10,7 @@ description:
 series:   
 lastmod:   
 cover:  
-image:   
+    image:   
 author:   
 ---  
   
@@ -21,7 +21,7 @@ Never stopped on the road, striving to have no regrets.
 Hi，I'm Jiang Gang，I hope my creation will be of assistance to you.
     
   
-## 联系我  
+## Contact me  
   
 - Twitter / X: [@haiweiquming_](https://x.com/haiweiquming_)  
 - Email: sivxiu@foxmail.com  
