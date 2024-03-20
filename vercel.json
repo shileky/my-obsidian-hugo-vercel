@@ -1,19 +1,12 @@
 {
     "redirects": [
-        {
-            "source": "/tools/:path*",
-            "destination": "https://old.printlove.cn/tools/:path*"
-        },
-        {
-            "source": "/tools/:path*/",
-            "destination": "https://old.printlove.cn/tools/:path*"
-        },
+        
         {
             "source": "/posts/docker/wsl2",
             "destination": "/docker-wsl2/"
         },
         {
-            "source": "/posts/gobasic/5-常量及运算符/",
+            "source": "/posts/gobasic/",
             "destination": "/golang-const/"
         },
         {

@@ -19,15 +19,15 @@ copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/l
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jiang Gang
-  description: "电子，控制，数学,go语言、go语言微服务以及个人故事。"
-  keywords: ["jianggang", "go", "control", "math" , "study", "story"]
+  description: "电子,控制,数学,AI,机械以及个人故事。"
+  keywords: ["jianggang", "ai", "control", "math" , "mechanical" , "study", "story"]
   author: ["Jiang Gang"]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   # 给图片增加 CDN 前缀
-  ImageCDN: "https://cdn.jsdelivr.net/gh/miaogaolinshileky/my-obsidian-hugo-vercel/static" 
+  ImageCDN: "https://cdn.jsdelivr.net/gh/shileky/my-obsidian-hugo-vercel/static" 
   ShowReadingTime: false
   ShowShareButtons: true
   # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
@@ -111,7 +111,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
     # 在列表默认显示的图片
-    defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=400&fm=webp&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
+    defaultImage: https://images.unsplash.com/photo-1504966981333-1ac8809be1ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxfHxzdGFyfGVufDB8MHx8fDE3MTA5MDA1Nzh8MA&ixlib=rb-4.0.3&q=80&w=1080
 
   editPost:
     URL: "https://github.com/shileky/my-obsidian-hugo-vercel/tree/main/content"
