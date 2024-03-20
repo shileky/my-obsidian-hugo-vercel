@@ -1,5 +1,5 @@
 ---  
-date: 2023-12-19T13:48:03+08:00  
+date: 2022-12-19T13:48:03+08:00  
 tags:   
 title: About Me  
 slug: about  
@@ -10,19 +10,19 @@ description:
 series:   
 lastmod:   
 cover:  
-  image:   
+image:   
 author:   
 ---  
   
-> 博客的死掉不是停止更新，而是无法访问
+> The death of blogs is not ceasing updates, but becoming not found 404.
+
+Never stopped on the road, striving to have no regrets.
   
-因为这句话，让我重新认识写博客的态度，为的不是马不停蹄，而是 “我一直在”。  
-  
-你好，I'm Jiang Gang，希望我的创作给来这里的朋友带来一丝丝的帮助。  
+Hi，I'm Jiang Gang，I hope my creation will be of assistance to you.
     
   
 ## 联系我  
   
-- Twitter / X: [@haiweiquming_](https://x.com/laomiao_)  
+- Twitter / X: [@haiweiquming_](https://x.com/haiweiquming_)  
 - Email: sivxiu@foxmail.com  
   
